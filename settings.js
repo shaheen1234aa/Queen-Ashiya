@@ -1,144 +1,94 @@
 //═══════════════════════════════════════════════════════//
-
+//                    💞 SHAHEEN OFFICIAL 💞
+//                              
+//             
+//       PAKISTANI 𝔹𝕖𝕤𝕥  𝕎𝕙𝕒𝕥𝕤𝕒𝕡𝕡 𝔹𝕆𝕋...
 //
-
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
-
-//
-
 //════════════════════════════//
 
 
-
 const fs = require('fs')
-
 const chalk = require('chalk')
 
-
-
 //Api Website\\
-
 global.APIs = {
-
 	zenz: 'https://zenzapis.xyz',
 }
 
-
-
 //Api Key\\
-
 global.APIKeys = {
-
-	'https://zenzapis.xyz': '0b0df72a76', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
-
+	'https://zenzapis.xyz': 'TnFQSndzZzI=', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
 }
-
-
 
 //customize settings\\
 
-global.owner = ['Didula Rashmika']
+global.owner = ['923337470194'] //your owner number
+global.premium = ['923337470194'] //your Owner number in menu msg
+global.ownernomer = '923337470194' //your owner number info
 
-global.premium = ['💗Queen Ashiya🧚']
+global.ownername = 'SHAHEEN OFFICIAL' //your owner name
+global.botname = '💞 SHAHEEN OFFICIAL 💞' //your bot name    // SHAHEEN OFFICIAL... https://youtu.be/OSvvf9ESl38Settings.js ( 💞 SHAHEEN OFFICIAL 💞 ) 923337470194...
+global.footer = '💞 SHAHEEN OFFICIAL 💞' 
 
-global.ownernomer = '94741671668'
+global.ig = 'https://github.com/ishansandeepa757' //Github Account!
+global.region = 'Sri Lanka'
+global.sc = 'https://github.com/ishansandeepa757'
+global.myweb = 'https://youtu.be/OSvvf9ESl38' //your chanal link
+global.packname = '💞 SHAHEEN OFFICIAL 💞'
 
-global.ownername = 'Didula Rashmika'
+global.alivemsgimage = 'https://wallpaperaccess.com/full/3008776.jpg' // SHAHEEN OFFICIAL Alive massege 923337470194 image 923337470194 Link SHAHEEN OFFICIAL...
 
-global.botname = '💗Queen Ashiya🧚'
+global.chatbotpre = "true"
 
-global.footer = '©💗Queen Ashiya🧚.'
-
-global.ig = 'https://github.com/BlackPant'
-
-global.region = 'Sri Lanka, North Central Peovince, Anuradhapura'
-
-global.sc = 'https://github.com/BlackPanther-svg/Queen-Ashiya'
-
-global.myweb = 'https://youtube.com/channel/UChP2lplECA2eZGCYLy_QeRA'
-
-global.packname = '💗Queen Ashiya🧚'
-
-global.author = '💗Queen Ashiya🧚'
-
+global.author = '𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺:- SHAHEEN OFFICIAL'
 global.sessionName = 'session'
+global.prefa = ['','!','.','🐦','🐤','🗿']                          // 👈 SHAHEEN OFFICIAL \\ 
+global.sp = '⭔'
 
-global.prefa = ['','!','.','❄','🖤','☃']
-
-global.sp = '◈'
-
-global.mess = {
-
-    success: 'Done ✓🌹⃝⃘̉̉̉̉̉̉🧚',
-
-    admin: 'This Feature Is Only For Admin!✾ـٰٰٰٰٖٖٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٖٖٜ۬ـٰٖٜ۬ـٰٖٜ۬ـٰٰٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٰٰٖٖٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٖٖٜ۬ـٰٖٜ۬ـٰٖٜ۬ـٰٰٖٖٜ۬ـٰٰٰٖٖٖٜ۬ـٰٰٰٰٖٖٖٖٜ۬✾➣',
-
-    botAdmin: 'Bot Must Be Admin First!❤️⃟✦⃝̮̮̮̯̯̯😌',
-
-    owner: 'This Feature Is Only For Owner😯⃟💦᭄᭄̊̊̊̊࿔!',
-
-    group: 'Feature Used Only For Groups!😒⃝⃟ꦾ👌ꦿ',
-
-    private: 'Features Used Only For Private Chat😯⃟💦᭄᭄̊̊̊̊࿔!',
-
-    bot: 'This Feature Is Only For Bot❤️⃝➤⃟̱̱̱̱̄̄̄̄😢',
-
-    wait: 'Wait A minute...🦋⃝❉⃟࿔ꦿ',
-
+global.mess = { // COSTOMIZE WITH YOUR LANGUAGE .....👇
+	
+	
+    success: 'SHAHEEN OFFICIAL ✅',
+    admin: 'SHAHEEN OFFICIAL...!',
+    botAdmin: 'SHAHEEN OFFICIAL... !',
+    owner: '923337470194!',
+    group: 'Groups SHAHEEN OFFICIAL...!',
+    private: 'Private Chat SHAHEEN OFFICIAL...!',
+    bot: 'SHAHEEN OFFICIAL...',
+    wait: 'SHAHEEN OFFICIAL Wait ⏳ ...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-
+	
+	
+	
+	
+	 // SHAHEEN OFFICIAL .....👇 \\
+	
+	
+	
 }
-
-    global.limitawal = {
-
+    global.limitawal = {        
     premium: "Infinity",
-
     free: 12,
-
     monayawal: 1000
-
 }
-
    global.rpg = {
-
    darahawal: 100,
-
    besiawal: 15,
-
    goldawal: 10,
-
    emeraldawal: 5,
-
    umpanawal: 5,
-
    potionawal: 1
-
 }
-
-global.thumb = fs.readFileSync('./GojoMedia/HD-wallpaper-little-queen-red-pretty-dress-queen-beautiful-magic-sweet-throne-anime-beauty-anime-girl-long-hair-blue-art-lovely-blonde-hair-swet-cute-girl-purple-crown.jpg')
-
+global.thumb = fs.readFileSync('./Queen_Ashiya_Media/Ashiya.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-
 let file = require.resolve(__filename)
-
 fs.watchFile(file, () => {
-
 	fs.unwatchFile(file)
-
 	console.log(chalk.redBright(`Update'${__filename}'`))
-
 	delete require.cache[file]
-
 	require(file)
-
 })
